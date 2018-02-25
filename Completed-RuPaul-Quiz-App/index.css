@@ -9,11 +9,12 @@ html, body {
 }
 
 html {
-  background: url('http://static.adweek.com/adweek.com-prod/wp-content/uploads/2017/03/rupaul-mainstream-PAGE-2017.jpg') no-repeat center center fixed; 
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: rgba(255, 255, 255)
 }
 
 #container {

@@ -8,6 +8,7 @@ function generateQuestion () {
     <h2>${STORE[questionNumber].question}</h2>
     <form>
     <fieldset>
+    <legend>answer</legend>
     <label class="answerOption">
     <input type="radio" value="${STORE[questionNumber].answers[0]}" name="answer" required>
     <span>${STORE[questionNumber].answers[0]}</span>
@@ -24,8 +25,8 @@ function generateQuestion () {
     <input type="radio" value="${STORE[questionNumber].answers[3]}" name="answer" required>
     <span>${STORE[questionNumber].answers[3]}</span>
     </label>
-    <button type="submit" class="submitButton">Submit</button>
     </fieldset>
+    <button type="submit" class="submitButton">Submit</button>
     </form>
     </div>`;
 } else {

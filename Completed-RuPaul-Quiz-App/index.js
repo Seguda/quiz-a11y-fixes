@@ -110,7 +110,8 @@ function questionTemplate(correctAnswers, question, questionsAnswered) {
     <h2 id="question">${question.text}</h2>
     
     <form>
-      <fieldset>
+      <fieldset class="radiogroup"> 
+      <legend>Select delivery method</legend>
         <label>
           <input class="answer" type="radio" name="option" checked></input>
           <span>${question.ans1}</span>
